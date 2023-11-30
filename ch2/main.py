@@ -10,6 +10,7 @@ while True:
         if attempts == 0:
             print("Good job! You guessed the number right the first time!")
         else:
+            attempts += 1
             print(f'Good job! You guessed my number in {attempts} guesses!')
         break
     elif guess > random_number:
