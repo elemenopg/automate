@@ -1,10 +1,8 @@
-from typing import Dict
-
-def isValidChessBoard(chess_dict: Dict[str,str]) -> bool:
+def isValidChessBoard(chess_dict: dict[str,str]) -> bool:
     piece_quant = {'wpawn': 0, 'bpawn': 0, 'wking': 0, 'bking': 0}
     w_pieces = 0
     b_pieces = 0
-    
+
     for coord, piece in chess_dict.items():
         # print(coord)
         # print(piece[1:])
