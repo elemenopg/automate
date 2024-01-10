@@ -160,5 +160,5 @@ TestDict = {
 }
 
 
-for test, dict in TestDict.items():
-    print(f'The result of {test} is {isValidChessBoard(dict)}')
+for test, dictionary in TestDict.items():
+    print(f'The result of {test} is {isValidChessBoard(dictionary)}')
